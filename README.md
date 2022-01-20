@@ -14,10 +14,9 @@ The document contains the following details:
 -   Beats in Use
 -   Machines Being Monitored
 - Using the Playbook
-- 
 
 ### Description of the Topology
-
+ 
 
 
 
