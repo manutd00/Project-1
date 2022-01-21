@@ -27,14 +27,19 @@ The document contains the following details:
  - Filebeat is used to monitor log files
  - Metricbeat moves information to specified output
 
+
 The configuration details of each machine may be found below.
 
 
 
 ### Access Policies
+The machines on the internal network are not exposed to the public internet.
 
 
 ### Elk Configuration
 
 
-## Beats in Use
+### Beats in Use
+
+
+### Using the Playbook
