@@ -16,7 +16,18 @@ The document contains the following details:
 - Using the Playbook
 
 ### Description of the Topology
+ This network exposes a load-balanced and monitored instance of DVWA.
  
+ Load balancing restricts access to the network and will be highly effecient by spreading the work evenly. 
+ - Load balancers protect against emerging threats
+ - The jump box alows us top open one oprt to the VM instead of many
+ - Layer of security, prevents exposure to public
+ 
+ Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs
+ - Filebeat is used to monitor log files
+ - Metricbeat moves information to specified output
+
+The configuration details of each machine may be found below.
 
 
 
