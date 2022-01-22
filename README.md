@@ -37,9 +37,28 @@ The machines on the internal network are not exposed to the public internet.
 Only The Elk machine can accept connections from the internet. 
 
 ### Elk Configuration
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it alows you to effeciently use your apps. Ansible will get your systems running when you write a playbook.
 
+The playbook implements the following tasks:
+- h
+- k
+- h
 
 ### Beats in Use
+This ELK server is configured to monitor the following machines: 
+- Web 1
+- Web 2
 
+I have installed the following beats on these machines: 
+- ELK Server
+- Web 1
+- Web 2
+
+These beats allowed me to collect the following information from each machine:
+- 
 
 ### Using the Playbook
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a node provisioned:
+
+SSH into the control node and follow the steps below:
+- copy the 
