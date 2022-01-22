@@ -34,7 +34,7 @@ The configuration details of each machine may be found below.
 
 ### Access Policies
 The machines on the internal network are not exposed to the public internet.
-
+Only The Elk machine can accept connections from the internet. 
 
 ### Elk Configuration
 
