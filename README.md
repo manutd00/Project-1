@@ -30,7 +30,13 @@ The document contains the following details:
 
 The configuration details of each machine may be found below.
 
-
+| Name     | Function | IP Address | Operating System |
+|----------|----------|------------|------------------|
+| Jump Box | Gateway  | 10.0.0.1   |       Linux      |
+| Web 1    |Web server| 10.0.0.11  |       Linux      |
+| Web 2    |Web server| 10.0.0.12  |       Linux      |
+| Web 3    |Web server| 10.0.0.13  |       Linux      |
+| VM ELK   |Web server| 10.1.0.4   |       Linux      |
 
 ### Access Policies
 The machines on the internal network are not exposed to the public internet.
