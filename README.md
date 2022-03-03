@@ -7,7 +7,7 @@ In this project I configured an ELK stack server in order to set up a cloud moni
 
   - [Ansible Files](https://github.com/manutd00/Project-1/tree/main/Ansible_Files)
 
-The document contains the following details:
+This document contains the following details:
 - Description of the Topology
 - Access Policies
 - Elk Configuration
