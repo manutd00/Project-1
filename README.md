@@ -3,7 +3,7 @@
 This is what I used to configure my ELK network.
 ![Network Diagram](https://github.com/manutd00/Project-1/blob/main/resources/Azure.png)
 
-(short description of project)
+In this project I configured an ELK stack server in order to set up a cloud monitoring system.
 
   - [Ansible Files](https://github.com/manutd00/Project-1/tree/main/Ansible_Files)
 
@@ -46,9 +46,11 @@ Only The Elk machine can accept connections from the internet.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it alows you to effeciently use your apps. Ansible will get your systems running when you write a playbook.
 
 The playbook implements the following tasks:
-- h
-- k
-- h
+- Sets ELK stack together
+- Monitors the servers
+
+Command to excute PLaybook:
+- sudo ansible-playbook site.yml
 
 ### Beats in Use
 This ELK server is configured to monitor the following machines: 
@@ -60,11 +62,12 @@ I have installed the following beats on these machines:
 - Web 1
 - Web 2
 
-These beats allowed me to collect the following information from each machine:
-- 
+These beats allowed me to collect information from each machine
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a node provisioned:
 
 SSH into the control node and follow the steps below:
-- copy the 
+- Copy the ansible file to the virtual machine
+- Update the /etc/ansible/hosts file to include the Ip addresses
+- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
