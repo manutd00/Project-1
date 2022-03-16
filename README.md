@@ -1,8 +1,7 @@
 # Project-1
 ## Automated ELK Stack Deployment
 This is what I used to configure my ELK network.
-![Network Diagram](https://github.com/manutd00/Project-1/blob/main/resources/Azure.png)
-
+![image](https://user-images.githubusercontent.com/90588955/158498841-f60a3b85-64b7-4874-9288-fdd2ee174068.png)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
   - [Ansible Files](https://github.com/manutd00/Project-1/tree/main/Ansible_Files)
 
