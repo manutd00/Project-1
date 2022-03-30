@@ -60,12 +60,8 @@ I have installed the following beats on these machines:
 - Web 1
 - Web 2
 
-These beats allowed me to collect information from each machine
+
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a node provisioned:
 
-SSH into the control node and follow the steps below:
-- Copy the ansible file to the virtual machine
-- Update the /etc/ansible/hosts file to include the Ip addresses
-- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
+These beats allowed me to collect information from each machine. My control node needed to be configured in order to use the playbook. I used SSH to get into the control node. I then copied the ansible config file to run playbook, updated my ansible_host file to include the IP addresses of the elk server, and ran playbook to navigate into jumpox and check that the installation was a success.
